@@ -22,3 +22,13 @@ variable "ipaddressName" {
   type        = string
 }
 
+variable "nsgname" {
+  type        = string
+}
+
+variable "nicname" {
+  type        = string
+}
+
+
+
