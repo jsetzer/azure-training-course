@@ -30,5 +30,12 @@ variable "nicname" {
   type        = string
 }
 
+variable "virtalMachine" {
+  type = string
+}
+
+variable "virtalMachineName" {
+type = string  
+}
 
 

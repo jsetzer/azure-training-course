@@ -1,3 +1,4 @@
+
 terraform {
   required_providers {
     azurerm = {
@@ -11,3 +12,4 @@ terraform {
 provider "azurerm" {
   features {}
 }
+

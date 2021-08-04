@@ -5,3 +5,7 @@ resource "azurerm_resource_group" "myTerraformGroup" {
   location = var.location
   tags = var.tags
 }
+
+output "aaa" {
+  value = azurerm_network_security_group.myTerraformNsg.name
+}
