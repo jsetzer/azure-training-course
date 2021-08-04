@@ -14,7 +14,7 @@ resource "azurerm_network_interface" "myTerraformNic" {
   tags = var.tags
 }
 
-resource "azurerm_network_interface_application_security_group_association" "example" {
-  network_interface_id          = azurerm_network_interface.myTerraformNic.id
-  application_security_group_id = azurerm_application_security_group.myTerraformSg.id
-}
+# resource "azurerm_network_interface_application_security_group_association" "example" {
+#  network_interface_id          = azurerm_network_interface.myTerraformNic.id
+#  application_security_group_id = azurerm_application_security_group.myTerraformNsg.id
+#}
