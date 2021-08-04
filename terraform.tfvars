@@ -5,3 +5,5 @@ tags = {
 }
 vnetname = "myTerraformNetName"
 subnetname = "mySubNetName"
+ipaddressName = "myIPAddress"
+
