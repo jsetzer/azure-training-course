@@ -1,33 +1,33 @@
 variable "resourceGroupName" {
-  type        = string
+  type = string
 }
 
 variable "location" {
-  type        = string
+  type = string
 }
 
 variable "tags" {
-  type        = map(any)
+  type = map(any)
 }
 
 variable "vnetname" {
-  type        = string
+  type = string
 }
 
 variable "subnetname" {
-  type        = string
+  type = string
 }
 
 variable "ipaddressName" {
-  type        = string
+  type = string
 }
 
 variable "nsgname" {
-  type        = string
+  type = string
 }
 
 variable "nicname" {
-  type        = string
+  type = string
 }
 
 variable "virtalMachine" {
@@ -35,7 +35,7 @@ variable "virtalMachine" {
 }
 
 variable "virtalMachineName" {
-type = string  
+  type = string
 }
 
 

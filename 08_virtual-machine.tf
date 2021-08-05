@@ -10,7 +10,7 @@ resource "azurerm_linux_virtual_machine" "example" {
   location            = var.location
   size                = "Standard_F2"
   admin_username      = "adminuser"
-  admin_password = random_password.password.result
+  admin_password      = random_password.password.result
   network_interface_ids = [
     azurerm_network_interface.example.id,
   ]
@@ -32,6 +32,6 @@ resource "azurerm_linux_virtual_machine" "example" {
     version   = "latest"
   }
 
-  computer_name = var.virtalMachineName
+  computer_name                   = var.virtalMachineName
   disable_password_authentication = false
 }
